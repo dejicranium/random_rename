@@ -22,6 +22,8 @@ def randomize_file_names(path):
         print("Renaming:" + _file)
         # get extension type, as we'll need to maintain it
         file_extension = _file[-4::]
+        if file_extension not in ['.jpg', '.png']:
+            file_extension = ".jpeg"
         new_name = "{}{}".format(uuid.uuid4(), file_extension)
         path = path + '/'
         os.rename(path + _file, path + new_name)
