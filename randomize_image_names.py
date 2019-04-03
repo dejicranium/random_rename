@@ -23,6 +23,7 @@ def randomize_file_names(path):
         # get extension type, as we'll need to maintain it
         file_extension = _file[-4::]
         new_name = "{}{}".format(uuid.uuid4(), file_extension)
+        path = path + '/'
         os.rename(path + _file, path + new_name)
 
 
