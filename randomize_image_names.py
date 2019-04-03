@@ -5,7 +5,7 @@ from os import listdir
 
 def file_is_image(_file):
     # we can know an image file through its extension type
-    is_image = _file[-4::] in ['.jpg', '.png'] or _file[-5::] == 'jpeg'
+    is_image = _file[-4::] in ['.jpg', '.png'] or _file[-5::] == '.jpeg'
     return is_image
 
 
