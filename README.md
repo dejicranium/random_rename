@@ -1,6 +1,6 @@
 # randomize_image_names
 
-To understand the need for *random-rename*, imagine you're currently in this situation:
+To understand the need for **random-rename**, imagine you're currently in this situation:
 
 You and some other members of a crowdsourcing team are asked to download a bunch of hotel and non-hotel images from the internet. These images are needed by a hotel booking platform to train a Machine Learning (ML) model with, and this ML will automatically detect whether an image contains an hotel or not. 
 
@@ -9,3 +9,7 @@ Since you all are autonomously downloading images, the chances are high that two
 The latter is not an 'easy' route if done manually. Hence, the need for random-rename. 
 
 Random-rename is a Python package that offers a non-deterministic rename of files using the uuid module in Python's standard library.
+
+
+**Requirements** 
+- Python 3.*
