@@ -1,6 +1,6 @@
 # randomize_image_names
 
-To understand the need for random-rename, imagine you're currently in this situation.
+To understand the need for random-rename, imagine you're currently in this situation:
 
 You and some other members of a crowdsourcing team are asked to download a bunch of hotel and non-hotel images from the internet. These images are needed by a hotel booking platform to train a Machine Learning (ML) model with, and this ML will automatically detect whether an image contains an hotel or not. 
 
