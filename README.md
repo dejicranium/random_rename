@@ -1,5 +1,11 @@
 # randomize_image_names
 
-What randomize_image_names does is to rename image files randomly. To use it, make sure you have Python installed, place randomize_random_file.py into the folder that houses the images whose names you wish to rename, and then run the application.
+To understand the need for random-rename, imagine you're currently in this situation.
 
-Note: I understand this is a crude way of doing things and providing a path in a terminal or CMD would be much better.
+You and some other members of a crowdsourcing team are asked to download a bunch of hotel and non-hotel images from the internet. These images are needed by a hotel booking platform to train a Machine Learning (ML) model with, and this ML will automatically detect whether an image contains an hotel or not. 
+
+Since you all are autonomously downloading images, the chances are high that two or more people will download images with the same name, which will cause conflicts when pushing to Git. You may choose to manually fix these conflicts or rather take an easier route which involves making each team member rename their files in such a way that no two files bear the same name.
+
+The latter is not an 'easy' route if done manually. Hence, the need for random-rename. 
+
+Random-rename is a Python package that offers a non-deterministic rename of files using the uuid module in Python's standard library.
