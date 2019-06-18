@@ -12,4 +12,4 @@ Random-rename is a Python package that offers a non-deterministic rename of file
 
 
 **Requirements** 
-- Python 3.*
+- Python 3.x
