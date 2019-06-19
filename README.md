@@ -8,7 +8,7 @@ Since you all are autonomously downloading images, the chances are high that two
 
 The latter is not an 'easy' route if done manually. Hence, the need for random-rename. 
 
-Random-rename is a Python package that offers a non-deterministic rename of files using the uuid module in Python's standard library.
+Random-rename is a Python package that offers a non-deterministic renaming of files using the uuid module in Python's standard library.
 
 
 **Requirements** 
